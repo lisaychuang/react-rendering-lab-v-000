@@ -36,6 +36,10 @@ class Pikachu extends React.Component {
       </div>
     )
   }
+  
+  componentDidUpdate(prevProps){
+    this.resizePikachu();
+  };
 }
 
 export default Pikachu;
